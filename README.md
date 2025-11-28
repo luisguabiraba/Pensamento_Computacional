@@ -10,11 +10,8 @@ Durante o semestre, desenvolvemos habilidades essenciais para qualquer programad
 - Tipos de dados e operadores  
 - Estruturas condicionais (`if`, `else`)  
 - Estruturas de repetição (`for`, `while`)  
-- Vetores e matrizes  
 - Modularização com funções  
-- Introdução à análise de algoritmos  
-- Pensamento computacional aplicado a problemas reais  
-- Ordenação (incluindo **Bubble Sort**, visto na prática)
+- Introdução à algoritmos  
 
 ## Projeto – Ordenação de Dígitos do RGM
 
@@ -25,14 +22,8 @@ Como projeto da disciplina, desenvolvemos um programa em C para **ordenar os dí
 - Ordenar os dígitos do RGM com os três métodos:  
   **Bubble Sort**, **Insertion Sort** e **Quick Sort (Lomuto)**  
 - Contar o número total de passos (comparações + trocas)  
-- Medir o tempo de execução  
-- Comparar o comportamento dos algoritmos em vetores de tamanhos diferentes  
-- Rodar benchmarks com vetores aleatórios de:  
-  **N = 100, 1000 e 10000**
 
----
-
-## Algoritmos utilizados
+## 📈 Algoritmos utilizados
 
 ### Bubble Sort
 - Simples, intuitivo e didático  
@@ -47,14 +38,3 @@ Como projeto da disciplina, desenvolvemos um programa em C para **ordenar os dí
 - O(n log n) na média  
 - Extremamente rápido para vetores grandes  
 - Mostra bem a diferença entre algoritmos quadráticos e eficientes  
-
----
-
-## 📈 Execução dos testes
-
-O programa mede:
-
-- Comparações  
-- Trocas  
-- Tempo em milissegundos  
-- Média baseada em **5 execuções por caso**
